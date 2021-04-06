@@ -1,0 +1,156 @@
+﻿/* Seitenspezifischer Stil */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 40px; /* bottom = footer height */
+    font-size: 12px;
+}
+
+h1 {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.padding {
+    padding: 5px;
+}
+
+#notification-popup.MessageBanner {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    height: inherit;
+    min-width: inherit;
+}
+
+#notification-popup .MessageBanner-text {
+    margin: 0;
+    padding: 18px 15px;
+    min-width: inherit;
+}
+
+#conten-main {
+    width: 100%;
+    padding: 10px 7px 10px 0px;
+    background-color: aqua;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #90caf9;
+}
+
+#document-settings-notLoggedIn {
+    display:flex;
+    justify-content: center;
+}
+
+.defaultButton {
+    background-color: #44c767;
+    border-radius: 13px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+    .defaultButton:hover {
+        background-color: #5cbf2a;
+    }
+
+    .defaultButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 15px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 0px;
+        background: #e6e6e6;
+        color: #7b7b7b;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+        .select select::-ms-expand {
+            display: none;
+        }
+
+        .select select:hover,
+        .select select:focus {
+            color: #000000;
+            background: #cccccc;
+        }
+
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #000000;
+}
+
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+#greetings {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+

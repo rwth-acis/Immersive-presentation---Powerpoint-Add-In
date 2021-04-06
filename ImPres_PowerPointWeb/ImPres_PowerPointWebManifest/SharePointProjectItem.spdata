@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.OfficeApp" DefaultFile="ImPres_PowerPointWeb.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="AppPackage" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="ImPres_PowerPointWeb.xml" Type="AppPackage" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="OfficeAppManifestRelativePath" Value="ImPres_PowerPointWebManifest\ImPres_PowerPointWeb.xml" />
+  </ExtensionData>
+</ProjectItem>
