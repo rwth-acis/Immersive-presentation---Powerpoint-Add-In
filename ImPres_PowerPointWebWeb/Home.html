@@ -37,22 +37,21 @@
             <h2 class="padding">Document-wide Settings</h2>
             <hr />
             <div id="document-settings-notLoggedIn" class="loggedOut">
-                <button id="button-login" class="defaultButton">Login</button>
+                    <label for="loginEmail">Email:</label><br>
+                    <input type="email" id="login-email" name="loginEmail">
+                    <label for="loginPwd">Password:</label><br>
+                    <input type="password" id="login-pwd" name="loginPwd">
+                    <button id="button-login" class="defaultButton">Login</button>
             </div>
             <div id="document-settings-loggedIn" class="loggedIn">
                 <div id="greetings">
                     <i class="ms-Icon ms-Icon--Contact padding"></i>
-                    <p>Lukas Liss</p>
+                    <p id="username">Username</p>
                 </div>
                 <div id="select-presentation" class="padding">
                     <p>Select the ImPres presentation to connect this powerpoint presentation to:</p>
                     <div class="select">
-                        <select>
-                            <option>Animal World Presentation</option>
-                            <option>Vacuum Presentation</option>
-                            <option>Mountain Presentation</option>
-                            <option>Coding Tutorial Pres</option>
-                            <option>Birthday Presentation</option>
+                        <select id="presentation-select">
                         </select>
                         <div class="select_arrow">
                         </div>
